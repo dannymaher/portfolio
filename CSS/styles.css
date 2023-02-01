@@ -1,7 +1,59 @@
 body{
     background-color: #e9eeee;
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #222831;
 }
-hr{
+div{
+    
+    
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    color: white;
+    
+    margin: 0 auto 0 auto;
+    font-family: 'Dancing Script', cursive;
+    
+}
+p{
+    color: white;
+}
+.top-container{
+    background-color: #222831;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    
+    
+}
+
+.bottom-container{
+   
+    
+    
+}
+.square{
+    height: 200px;
+    width: 200px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 20%;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 20%;
+    top: 50px;
+}
+/* hr{
     width: 10%;
     
     border-style: dotted none none;
@@ -24,4 +76,4 @@ h2{
 }
 h3{
     color: #66BFBF;
-}
+} */
