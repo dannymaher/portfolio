@@ -4,67 +4,949 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danny Maher</title>
-    <link rel="stylesheet" type = "text/css" href="CSS/styles.css">
+    <title>Document</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <script src="https://kit.fontawesome.com/1efb6a48cb.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
-    <div class = "top-container">
-        <img class = "top-cloud" src = "images/cloud.png" alt="cloud-img">
-        <h1>I'm Danny</h1>
-        <h2 class = "subheading">A computer science graduate and aspiring software/web developer</h2>
-        <img class = "bottom-cloud" src="images/cloud.png" alt="cloud-img">
-        <img src="images/mountain.png" alt="mountain-img">
-
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img class = "profile-pic" src="images/profilePicCircle.png" alt="profile-picture">
-          <h2>Hello.</h2>
-          <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="skill-row-img" src="images/chillies.png" alt="">
-            <h3>Lorem & Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-          </div>
-          <div class="skill-row">
-            <img class="skill-row-img" src="images/chillies.png" alt="">
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-          </div>
-          
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-        </div>
-      </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-        <p>© Danny Maher.</p>
-      </div>
     
-
-
+    <section id = "intro">
+        <div class="container-fluid container-bg ">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar scroll</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="workHistory.html">Work History</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                      </li>
+                      <li>
+                        <a class="nav-link disabled" href="#">My Projects</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Link</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class = "icon-container">
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class = "icon-row">
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-solid fa-binary"></i>
+                    <i class="fa-solid fa-code"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            
+        </div> 
+        <div class="container container-fg ">
+            <div>
+                <h1>I'm Danny</h1>
+                <h2>Computer Science Graduate <br> Aspiring Web/Software Developer</h2>
+            </div>
+            
+        </div>
+    </section>
+    <section id="welcome">
+        <div class="container">
+            <img src="images/Profile.jpg">
+        </div>
+    </section>
+       
+            
 </body>
 </html>

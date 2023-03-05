@@ -4,138 +4,254 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/1efb6a48cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <center><h1>Education</h1></center>
-    <p>A complete list of all future, current and past education</p>
-    <br>
-    <h2>Currently studying</h2>
-    <h3>The Complete 2023 Web Development Bootcamp by Dr. Angela Yu</h3>
-    <p>Skills developed:</p>
-    <table>
-        <thead>
-
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <table >
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <li>Front-End Web Development</li>
-                                    <li>HTML 5</li>
-                                    <li>CSS 3</li>
-                                    <li>Bootstrap 4</li>
-                                    <li>Javascript ES6</li>
-                                    <li>DOM Manipulation</li>
-                                    <li>jQuery</li>
-                                    <li>Bash Command Line</li>
-                                    <li>Git, GitHub and Version Control</li>
-                                    <li>Backend Web Development</li>
-                                    <li>Node.js</li>
-                                    <li>NPM</li>
-                                    <li>Express.js</li>
-                                </td>
-                            </tr>
-                        </tbody>
+    <section id = "nav">
+        <div class="container-fluid container-bg ">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar scroll</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="workHistory.html">Work History</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                      </li>
+                      <li>
+                        <a class="nav-link disabled" href="#">My Projects</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Link</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <section id = "ed-content">
+        <div class="container-fluid">
+            <div class="row">
+                <h1>
+                    A complete list of all future, current and past education
+                </h1>
+                <br>
+                <h2>Currently studying</h2>
+                <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"><h3>The Complete 2023 Web Development Bootcamp by Dr. Angela Yu</h3></a>
+                <p>Skills developed:</p>
+                <br>
+            </div>
+            <div class="row">
+                <div class="col col-lg-6 col-md-6">
+                    <table class = "table ed-cont-table">
+                        <tr>
+                            <td><li>HTML 5</li></td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>CSS 3</li></td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Bootstrap 5</li></td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Javascript ES6</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>DOM Manipulation</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>jQuery</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Bash Command Line</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Git, GitHub and Version Control</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Node.js</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>NPM</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Express.js</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>EJS</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
                     </table>
-                </td>
-                <td>
-                    <table >
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <li>EJS</li>
-                                    <li>REST</li>
-                                    <li>APIs</li>
-                                    <li>Databases</li>
-                                    <li>SQL</li>
-                                    <li>MongoDB</li>
-                                    <li>Mongoose</li>
-                                    <li>Authentication</li>
-                                    <li>Firebase</li>
-                                    <li>React.js</li>
-                                    <li>React Hooks</li>
-                                    <li>Web Design</li>
-                                    <li>Deployment with GitHub Pages, Heroku and MongoDB Atlas</li>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                </div>
+                <div class="col-lg-6 col-md-6">
                     
-                </td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-
-    </table>
-  
-    
-
-    <br>
-    <h2>Past studies</h2>
-    <h3>Bachelor of Science in Computer Science with second degree honours(1st division) at Teesside University</h3>
-    <p>Skills developed:</p>
-    <ul>
-        <li>Object-Oriented programming(mostly java)</li>
-        <li>UML Modelling</li>
-        <li>Relational dataBases/NoSQL databases</li>
-        <li>Algorithms and data structures</li>
-        <li>Agile methodology</li>
-        <li>SOLID principles</li>
-        <li>Web-app development(ASP.NET CORE)</li>
-        <li>AI programming(clojure)</li>
-        <li>Android development</li>
-        <li>Software reliablity(Coq)</li>
-        <li>Testing</li>
-    </ul>
-    <br>
-    <h3>A-Levels - Prior Pursglove College</h3>
-    <table>
-        <thead>
-            <tr>
-                <th>Subject</th>
-                <th>Grade</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Business Studies</td>
-                <td>C</td>
-            </tr>
-            <tr>
-                <td>Computer Science</td>
-                <td>D</td>
-            </tr>
-            <tr>
-                <td>Mathematics</td>
-                <td>E</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-        
-    </table>
-    
-    <br>
-    <h3>GCSE - Rye Hills School</h3>
-    <table>
-        
-        <tbody>
-            <tr>
-                <td>
-                    <table cellspacing = "10">
+                    <table class = "table ed-cont-table">
+                        <tr>
+                            <td><li>REST </li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>APIs</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Databases</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>SQL</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>MongoDB</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Mongoose</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Authentication</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Firebase</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>React.js</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>React Hooks</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Web Design</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                        <tr>
+                            <td><li>Deployment</li></td>
+                            <td><i class="fa-solid fa-xmark"></i></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="row">
+                <h2>Past studies</h2>
+                <h3>Bachelor of Science in Computer Science with second degree honours(1st division) - Teesside University</h3>
+                <p>Skills developed:</p>
+                <div class = "col-lg-6 col-md-12">
+                    <ul>
+                        <li>Object-Oriented programming(mostly java)</li>
+                        <li>UML Modelling</li>
+                        <li>Relational dataBases/NoSQL databases</li>
+                        <li>Algorithms and data structures</li>
+                        <li>Agile methodology</li>
+                        <li>SOLID principles</li>
+                    </ul>
+                   
+                </div>
+                <div class = "col-lg-6 col-md-12">
+                    <ul>
+                    
+                        <li>Design patterns</li>
+                        <li>Web-app development(ASP.NET CORE)</li>
+                        <li>AI programming(clojure)</li>
+                        <li>Android development</li>
+                        <li>Software reliablity(Coq)</li>
+                        <li>Testing</li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            <div class="row">
+                <h3>A-Levels - Prior Pursglove College</h3>
+                <div class="col">
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th>Subject</th>
                                 <th>Grade</th>
                             </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Business Studies</td>
+                                <td>C</td>
+                            </tr>
+                            <tr>
+                                <td>Computer Science</td>
+                                <td>D</td>
+                            </tr>
+                            <tr>
+                                <td>Mathematics</td>
+                                <td>E</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <h3>GCSE - Rye Hills School</h3>
+                <div class="col-lg-6 col-md-12 ">
+                    <table class = "table">
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Grade</th>
+                            </tr>
+    
                         </thead>
                         <tbody>
                             <tr>
@@ -164,14 +280,15 @@
                             </tr>
                         </tbody>
                     </table>
-                </td>
-                <td>
-                    <table cellspacing = "10">
+                </div>
+                <div class = "col-lg-6 col-md-12">
+                    <table class="table grades">
                         <thead>
                             <tr>
                                 <th>Subject</th>
                                 <th>Grade</th>
                             </tr>
+    
                         </thead>
                         <tbody>
                             <tr>
@@ -200,16 +317,25 @@
                             </tr>
                         </tbody>
                     </table>
-                </td>
-            </tr>
-            
-        </tbody>
-        <tfoot>
+                </div>
 
-        </tfoot>
-        
+                
+                
+
+            </div>
+            <div class="row">
+                <h2>Future Plans</h2>
+                <ul>
+                    <li><a href="https://www.udemy.com/course/php-for-complete-beginners-includes-msql-object-oriented/"><h3>PHP for Beginners - Become a PHP Master - CMS Project by Edwin Diaz</h3></a></li>
+                    <li><a href="https://www.udemy.com/course/complete-aspnet-core-21-course/"><h3>Complete guide to ASP.NET Core MVC (.NET 6) by Bhrugen Patel</h3></a></li>
+                </ul>
+                
+                
+            </div>
+
+        </div>
        
-    </table>
-    
+        
+    </section>
 </body>
 </html>
