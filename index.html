@@ -19,6 +19,7 @@
   ></script>
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://kit.fontawesome.com/1efb6a48cb.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
   
 </head>
 <body>
@@ -27,7 +28,7 @@
         <div class="container-fluid container-bg ">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar scroll</a>
+                  <a class="navbar-brand" href="#">Danny Maher</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -43,27 +44,12 @@
                         <a class="nav-link" href="education.html">Education</a>
                       </li>
                       <li>
-                        <a class="nav-link disabled" href="#">My Projects</a>
+                        <a class="nav-link disabled" href="#">My Projects (under development)</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Link
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Link</a>
-                      </li>
+                     
+                      
                     </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    
                   </div>
                 </div>
               </nav>
@@ -936,7 +922,10 @@
         <div class="container container-fg glass">
             <div>
                 <h1>I'm Danny</h1>
-                <h2>Computer Science Graduate <br> Aspiring Web/Software Developer</h2>
+                <br>
+                <h2>Computer Science Graduate</h2> 
+                <br>
+                <h2>Aspiring Web/Software Developer</h2>
             </div>
             
         </div>
@@ -944,7 +933,7 @@
     <section id="welcome">
         <div class="container">
             <div class="row">
-                <div class=" col-lg-5 col-md-12">
+                <div class=" col-lg-5 col-md-12" >
                     <div class = "img-overlay-container ">
                         <img src="images/Profile.jpg" class="img-fluid " >
                         <!-- <i class="fa-solid fa-arrow-up"></i> -->
@@ -970,15 +959,22 @@
                     </div>
                 </div>
                 <div class=" col-lg-7 col-md-12 ">
-                    <div class = "bubble ">
-                        <h3>Hello.</h3>
-                        <p>I'm Danny Maher. A computer Science graduate looking to advance my career in the web and software development industry. </p>
-                        <p>I am very passionate about technology and software and truly enjoy working on development projects. 
-                            Ever since I first installed IDLE way back when I was 14, I knew that this was what I was meant to do.</p>
-                        <p>I'm actively progressing my skills through online course's, supporting it with my own research, and developing my own personal projects to become a master developer.</p>
-                        <p>Hover over my photo to view my socials and don't forget to check out my projects from the nav-bar!</p>
-                        
+                    <div class="bubble-container">
+                        <div class = "bubble glass">
+                            <h3>Hello.</h3>
+                            <p>I'm Danny Maher. A computer Science graduate looking to advance my career in the web and software development industry. </p>
+                            <p>I am very passionate about technology and software and truly enjoy working on development projects. 
+                                Ever since I first installed IDLE way back when I was 14, I knew that this was what I was meant to do.</p>
+                            <p>I'm actively progressing my skills through online course's, supporting it with my own research, and developing my own personal projects to become a master developer.</p>
+                            <p>Hover over my photo to view my socials and don't forget to check out my projects from the nav-bar!</p>
+                            
+                        </div>
+                        <div class="bubble-blur">
+                                
+                        </div>
                     </div>
+                   
+                    
                 </div>
             </div>
             
@@ -988,29 +984,36 @@
     <section id="skills">
         <div class="container">
             
+            
             <div class="row">
                 <h2>My Skills</h2>
-                <div class="col-lg-4 col-md-12">
+                <div class="col col-lg-4 col-md-12 box-col">
                     <div class="box">
                         <div class="box-content glass">
-                            <h2>Skill</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h3>Object-Oriented Programming</h3>
+                            <strong>
+                                <p>I have experience and knowledge of OO programming including Java and C#. I find programming to be very enjoyable and that it comes naturally to me.</p>
+                            </strong>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col col-lg-4 col-md-12 box-col">
                     <div class="box ">
                         <div class="box-content glass">
-                            <h2>Skill</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h3>Web Development</h3>
+                            <strong>
+                                <p>I have experience and skills in both back-end and front-end web development, using languages such as dotnet core, bootstrap, HTML, CSS and Javascript.</p>
+                            </strong>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 hi">
+                <div class="col col-lg-4 col-md-12 box-col">
                     <div class="box ">
                         <div class="box-content glass">
-                            <h2>Skill</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h3>Keen Learner</h3>
+                            <strong><p>I'm always looking for an opportunity to learn and progress my skills to a higher level. I achieve this by studying online course's and from my own research</p></strong>
                         </div>
                     </div>
                 </div>
@@ -1020,7 +1023,22 @@
         </div>
         
     </section>
-       
+    <section id = "footer">
+        <div class="container">
+            
+            <button type="button" class="btn btn-dark" onclick="backTop()" id="topBtn">Back To Top</button>
+            <br>
+            <div class="footer-icons">
+                <a href="https://www.linkedin.com/in/danny-maher-797168213/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href = "mailto:maherdanny70@gmail.com"><i class="fa-sharp fa-solid fa-envelope "></i></a>
+                <a href="https://github.com/dannymaher" target="_blank" ><i class="fa-brands fa-github "></i></a>
+                
+            </div>
+            <p>©️ danny maher 2023</p>
+            
+
+        </div>
+    </section>
             
 </body>
 </html>
