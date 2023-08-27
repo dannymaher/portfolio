@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/1efb6a48cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <section id = "nav">
+        <div class="container-fluid container-bg ">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Danny Maher</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="workHistory.html">Work History</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                      </li>
+                      <li>
+                        <a class="nav-link " href="projects.html">My Projects</a>
+                      </li>
+                     
+                     
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <section id = "titleSection">
+        <h1 class="text-center mx-auto p3 m-2"><u>BookShop Project</u></h1>
+        <h2 class="text-center mx-auto pb-3">This page is still under development so enjoy this placeholder while I work on it!</h2>
+        
+    </section>
+    <section id = "projectDetails">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 m-2 p-2">
+                  <a href="https://github.com/dannymaher/BookShop" target="_blank">Github link</a>
+                  <a href="https://bookshop-project.azurewebsites.net/" target="_blank">Deployment link</a>
+                    <h3 class=>Project Summary</h3>
+                    <p>This project is an e-commerce site which sells books. 
+                      There are 4 different types of account which can do different things on the site.
+                    </p>
+                    <h4 class="h4">Customer</h4>
+                    <ul>
+                      <li>
+                        View a list of each product and view the details for a specific product such as name, author and price.
+                      </li>
+                      <li>
+                        Add products to their basket where they can see the total cost for each product and a combined total cost of the basket.
+                      </li>
+                      <li>
+                        Order and pay for the items in their basket which is processed through stripe.
+                      </li>
+                      <li>
+                        Update their account information such as change password and user data. 
+                      </li>
+                    </ul>
+
+                    <h4 class="h4">Company</h4>
+                    <ul>
+                      <li>
+                        The same actions as customer but they have the option to pay up to 30 days after ordering.
+                      </li>
+                      <li>
+                        Can only be created by an admin.
+                      </li>
+                    </ul>
+                    <h4 class="h4">Employee</h4>
+                    <ul>
+                      <li>
+                        All the actions of customer.
+                      </li>
+                      <li>
+                        View and manage user orders.
+                      </li>
+                      <li>
+                        Update the status of user orders from approved to processing to shipped.
+                      </li>
+                      <li>
+                        Cancel user orders.
+                      </li>
+                      <li>
+                        Can only be created by an admin.
+                      </li>
+                    </ul>
+                    <h4 class="h4">Admin</h4>
+                    <ul>
+                      <li>
+                        All the actions of employee and customer.
+                      </li>
+                      <li>
+                        Perfrom CRUD operations for categories, products, companies and users.
+                      </li>
+                      <li>
+                        Manage users by changing their roles or locking from logging in.
+                      </li>
+                      <li>
+                        Can only be created by an admin.
+                      </li>
+                    </ul>
+                   
+                    
+                </div>
+            </div>
+            <div class="row">
+              <h4 class="my-2">Technologies used:</h4>
+              <div class="col-6">
+                
+                <ul>
+                  <li>
+                    ASP.NET Core 7
+                  </li>
+                  <li>
+                    HTML
+                  </li>
+                  <li>CSS/Bootstrap</li>
+                  <li>Javascript/JQuery</li>
+                  <li>SQL Server</li>
+                  <li>Entity Framework Core</li>
+                  <li>Razor</li>
+                  
+                </ul>
+              </div>
+              <div class="col-6">
+                  <ul>
+                    <li>MS Azure</li>
+                    <li>TinyMCE</li>
+                    <li>Bootswatch themes</li>
+                    <li>DataTables</li>
+                    <li>Sweet Alert 2</li>
+                    <li>Toastr</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="row">
+              <h4 class="my-2">Skills used:</h4>
+              <div class="col-6">
+                
+                <ul>
+                    <li>CRUD operations on a datbase</li>
+                    <li>Repository pattern</li>
+                    <li>Unit of work pattern</li>
+                    <li>Server-side and client-side validation</li>
+                    <li>Integration and expansion of identity framework</li>
+                    <li>CI/CD</li>
+                    <li>Dotnet Core sessions</li>
+                    <li>View Components</li>
+                    <li>Partial Views</li>
+                    
+                </ul>
+              </div>
+              <div class="col-6">
+                  <ul>
+                    <li>Use of temp data</li>
+                    <li>Authentication and Authorization</li>
+                    <li>Role management</li>
+                    <li>External logins with facebook and microsoft accounts</li>
+                    <li>Stripe payment integration</li>
+                    <li>automatic database seeding</li>
+                    <li>Git and version control</li>
+                    <li>Deployment on azure</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p>You can test this web app using the following accounts but <strong>please do not delete anything that you did not create yourself!</strong></p>
+                <table class="table my-2">
+                  <tr>
+                    <th>UserName</th>
+                    <th>password</th>
+                  </tr>
+                  <tr>
+                    <td>testAdmin@gmail.com</td>
+                    <td>Adm!n123</td>
+                  </tr>
+                  <tr>
+                    <td>testEmployee@gmail.com</td>
+                    <td>Employee!123</td>
+                  </tr>
+                  <tr>
+                    <td>testcCompany@gmail.com</td>
+                    <td>Company!123</td>
+                  </tr>
+                  <tr>
+                    <td>testCustomer@gmail.com</td>
+                    <td>Customer!123</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <!--TODO add github and deployment links, add tech and skills used-->
+        </div>
+    </section>
+</body>
+</html>
